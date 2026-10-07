@@ -4,7 +4,7 @@ A lot of the information you will need will be located in /docs, the official dj
 
 
 Goals:
-- [ ] Yeah
+- [ ] Example
 
 Current Plan:
 - [ ] Design the Index (first page you see when you type in the URL)
