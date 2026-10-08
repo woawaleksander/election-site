@@ -2,19 +2,13 @@ body {
     text-align: center;
     background-color: #FFFF;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .logo {
 
 }
-
-.imageSlides {
-    width: 100%;
-    height: auto;
-} 
-
 
 .navBar {
     background-color: #333;
@@ -41,4 +35,17 @@ body {
 
 .navBar a:hover {
     background-color: #000000;
+}
+
+/* Image Slideshow */
+
+.imageSlidesContainer {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+} 
+
+.imageSlidesContainer img {
+    padding: 3px;
 }
