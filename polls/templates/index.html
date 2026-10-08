@@ -1,15 +1,27 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <title>Placeholder</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all">
+    <title>Placeholder</title>
 </head>
 <body>
+    
+    <div class="navBar">
+        <a href="">Home</a> <a href="">News</a> <a href="">About</a> <a href="">Polls</a> 
+    </div>
 
-    <h1>Alex Brant and Quentin Hang</h1>
+    <div class="imageSlides">
+        <img src="../static/images/cd-ehs-side.jpeg">
+    </div>
+
+    <hr>
+
+    <h3>The Website by Students for Students</h3>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nihil neque voluptatum earum ea illo dolorem quis nam ratione eaque, saepe similique nisi eos quod blanditiis beatae facere, voluptatem dolore.</p>
     

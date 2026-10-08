@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+
+}
+
+.imageSlides {
+    width: 100%;
+    height: auto;
+} 
+
+
+.navBar {
+    background-color: #333;
+    overflow: hidden;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.navBar:hover {
+    border-bottom: underline;
+}
+
+.navBar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navBar a:hover {
+    background-color: #000000;
+}
