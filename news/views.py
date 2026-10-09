@@ -4,5 +4,5 @@ from django.http import HttpResponse
 
 
 def main(request):
-  template = loader.get_template('index/index.html')
+  template = loader.get_template('news/index.html')
   return HttpResponse(template.render())

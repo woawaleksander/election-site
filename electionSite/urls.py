@@ -16,11 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
-from polls import views
+from polls import views as polls_views
+from news import views as news_views
 
 urlpatterns = [
-    path("polls/", views.main, name='index'),
-    path('admin/', admin.site.urls), 
+    path("", polls_views.main, name='index'),
+    #path("polling/", polling_views.main, name='polls'),
+    #path("polling/", include("polls.urls")),
+    #path("news/", news_views.main, name='news'),
+    path("about/", news_views.about, name="about"),
+    #path('admin/', admin.site.urls), 
 
     
     #When to use include()
