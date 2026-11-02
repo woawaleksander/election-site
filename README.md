@@ -7,8 +7,8 @@ Goals:
 - [ ] Example
 
 Current Plan:
-- [ ] Design the Index (first page you see when you type in the URL)
-- [ ] Implement it in HTML/CSS
+- [X] Design the Index (first page you see when you type in the URL)
+- [X] Implement it in HTML/CSS
 - [ ] Figure out how to do the backend part of the polls with Django
 - [ ] Design the Polls page
 - [ ] Implement the polls page design

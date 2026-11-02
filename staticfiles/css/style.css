@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background-color: #FFFF;
+    font-family: "Manrope", sans-serif;
+}
+
+
+@font-face {
+    font-family: "Manrope";
+    src: url(../css/Manrope/Manrope-VariableFont_wght.ttf);
+}
+
+p {
+    text-align: justify;
+}
+
+.logo {
+
+}
+
+.navBar {
+    background-color: #333;
+    overflow: hidden;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.navBarText {
+    color: white;
+}
+
+.navBar:hover {
+    border-bottom: underline;
+}
+
+.navBar a {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navBar a:hover {
+    background-color: #000000;
+}
+
+creators {
+    background-color: #333;
+    padding: 5px;
+}
+
+/* Image Slideshow */
+
+.imageSlidesContainer {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px;
+} 
+
+.imageSlidesContainer img {
+    padding: 3px;
+}

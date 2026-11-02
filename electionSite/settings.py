@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$q2anlol0dzdtzbzyn%$(*y*i%w*i1b#rg-o4gmeh(rru%4=rh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['studentsofehs.org', 'www.studentsofehs.org', '185.233.106.220', 'localhost']
 
 
 # Application definition
@@ -120,9 +120,8 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
-STATICFILES_DIRS = [
-    BASE_DIR / "polls" / "static",
-]
+# You can omit STATICFILES_DIRS for app-level static folders.
+
 
 
 # Email
